@@ -43,7 +43,7 @@ main{
   margin-top: 10px;
   margin-left: 10px;
   margin-right: 10px;
-  background-size: cover; 
+  background-size: cover;
   background-position: center;
 }
 
@@ -54,7 +54,7 @@ main{
   margin-top: 10px;
   margin-left: 10px;
   margin-right: 10px;
-  background-size: cover; 
+  background-size: cover;
   background-position: center;
 }
 
@@ -65,7 +65,7 @@ main{
   margin-top: 10px;
   margin-left: 10px;
   margin-right: 10px;
-  background-size: cover; 
+  background-size: cover;
   background-position: center;
 }
 
@@ -88,5 +88,19 @@ footer{
     width: 100%;
     display: block;
   }
-  
+  .article{
+    width: 90%;
+    margin:20px;
+  }
+
+ .article-image-box1 {
+   height: 150px;
+  }
+  .article-image-box2 {
+   height: 150px;
+  }
+  .article-image-box3 {
+   height: 150px;
+  }
+
 }
