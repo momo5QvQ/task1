@@ -13,6 +13,7 @@ header{
 
 main{
   width: 960px;
+  padding: 50px;
   display: flex;
   justify-content: center; /* 要素の横並び・中央寄せ */
   margin: 0 auto;  /* 要素の中央揃え */
@@ -20,13 +21,21 @@ main{
 
 .article{
   width: 300px;
-  margin: 50px;
+  margin: 15px;
   background-color: #EEEEEE;
+}
+
+.artical-text{
+  margin: 15px;
 }
 
 .artical-title{
   margin-top: 15px;
   margin-bottom: 5px;
+}
+
+.artical-sentence{
+  margin-top: 5px;
 }
 
 .artical-number-box{
