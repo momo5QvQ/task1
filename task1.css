@@ -21,24 +21,21 @@ main{
 
 .article{
   width: 300px;
-  margin: 15px;
+  margin-left: 30px;
   background-color: #EEEEEE;
 }
 
-.artical-text{
-  margin: 15px;
-}
 
-.artical-title{
-  margin-top: 15px;
+.article-title{
+  padding-top: 15px;
   margin-bottom: 5px;
 }
 
-.artical-sentence{
+.article-sentence{
   margin-top: 5px;
 }
 
-.artical-number-box{
+.article-number-box{
   display: inline-block;
   background-color: #FF9A4B;
   border-radius: 3px;
@@ -78,7 +75,7 @@ main{
   background-position: center;
 }
 
-.artical-number{
+.article-number{
   background-color: #FF9A4B;
 }
 
@@ -94,9 +91,14 @@ footer{
     width: 100%;
   }
   main {
-    width: 100%;
-    display: block;
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column; /* 縦並びにする */
+    align-items: center; /*中央寄せ */
   }
+  
   .article{
     width: 90%;
     margin:20px;
@@ -104,12 +106,18 @@ footer{
 
  .article-image-box1 {
    height: 150px;
+   width: 280px;
   }
   .article-image-box2 {
    height: 150px;
+   width: 280px;
+   
   }
   .article-image-box3 {
    height: 150px;
+   width: 280px;
   }
+
+
 
 }
