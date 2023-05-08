@@ -13,26 +13,35 @@ header{
 
 main{
   width: 960px;
-  padding: 50px;
+  padding-bottom: 50px;
+  padding-top: 50px;
   display: flex;
   justify-content: center; /* 要素の横並び・中央寄せ */
   margin: 0 auto;  /* 要素の中央揃え */
+}
+
+.article:first-child{
+  width: 300px;
+  background-color: #EEEEEE;
 }
 
 .article{
   width: 300px;
   margin-left: 30px;
   background-color: #EEEEEE;
-}
 
+}
 
 .article-title{
   padding-top: 15px;
   margin-bottom: 5px;
+  margin-left: 10px;
 }
 
 .article-sentence{
-  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .article-number-box{
@@ -43,18 +52,16 @@ main{
 }
 
 .article-image-box1{
-  width: 280px;
   height: 150px;
-  background-image: url(img/flow01.png);
   margin-top: 10px;
   margin-left: 10px;
   margin-right: 10px;
+  background-image: url(img/flow01.png);
   background-size: cover;
   background-position: center;
 }
 
 .article-image-box2{
-  width: 280px;
   height: 150px;
   background-image: url(img/flow02.png);
   margin-top: 10px;
@@ -65,7 +72,6 @@ main{
 }
 
 .article-image-box3{
-  width: 280px;
   height: 150px;
   background-image: url(img/flow03.png);
   margin-top: 10px;
@@ -94,28 +100,33 @@ footer{
     width: 90%;
     margin-top: 50px;
     margin-bottom: 50px;
+    padding: 0;
     display: flex;
     flex-direction: column; /* 縦並びにする */
     align-items: center; /*中央寄せ */
   }
-  
+
   .article{
     width: 90%;
     margin:20px;
   }
+  
+ .article:first-child{
+  width: 90%;
+  background-color: #EEEEEE;
+   
+ }
 
  .article-image-box1 {
    height: 150px;
-   width: 280px;
+
   }
   .article-image-box2 {
    height: 150px;
-   width: 280px;
-   
+
   }
   .article-image-box3 {
    height: 150px;
-   width: 280px;
   }
 
 
