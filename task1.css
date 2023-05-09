@@ -29,6 +29,7 @@ main{
   width: 300px;
   margin-left: 30px;
   background-color: #EEEEEE;
+  position: relative;
 
 }
 
@@ -45,7 +46,9 @@ main{
 }
 
 .article-number-box{
-  display: inline-block;
+  position: absolute;
+    top: 0;
+    left: 0;
   background-color: #FF9A4B;
   border-radius: 3px;
   color: #fff;
@@ -107,14 +110,16 @@ footer{
   }
 
   .article{
-    width: 90%;
-    margin:20px;
+    width: 100%;
+    margin-top:20px;
+    margin-left: 0px;
   }
-  
+
  .article:first-child{
-  width: 90%;
+  width: 100%;
+  margin:0px;
   background-color: #EEEEEE;
-   
+
  }
 
  .article-image-box1 {
